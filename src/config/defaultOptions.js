@@ -1,6 +1,7 @@
 import { createApiKey } from '../utils/index.js'
 
 export default {
+  albPort: 3003,
   apiKey: createApiKey(),
   corsAllowHeaders: 'accept,content-type,x-api-key,authorization',
   corsAllowOrigin: '*',
