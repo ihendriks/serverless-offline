@@ -13,6 +13,7 @@ export { default as splitHandlerPathAndName } from './splitHandlerPathAndName.js
 export { default as checkDockerDaemon } from './checkDockerDaemon.js'
 export { default as checkGoVersion } from './checkGoVersion.js'
 export { default as generateHapiPath } from './generateHapiPath.js'
+export { generateAlbHapiPath } from './generateHapiPath.js'
 // export { default as baseImage } from './baseImage.js'
 
 const { isArray } = Array
